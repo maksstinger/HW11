@@ -1,0 +1,23 @@
+{
+  "name": "hw11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "ts": "tsc",
+    "build": "browserify dist/main.js -o dist/result.js"
+  },
+  "author": "stinger",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.3",
+    "commonjs": "0.0.1",
+    "mocha": "^6.1.4",
+    "typescript": "^3.4.5"
+  }
+}
