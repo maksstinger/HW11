@@ -12,7 +12,7 @@ describe("Check right sum", function() {
         assert.equal(actual, 18);
     });
     it("sums six args", function() {
-        const should = sum(3)(3)(-1)(10)(1)(0);
-        assert.equal(should, 16);
+        const actual = sum(3)(3)(-1)(10)(1)(0);
+        assert.equal(actual, 16);
     });
 });
